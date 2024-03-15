@@ -1,0 +1,154 @@
+/* Genel stil ayarları */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.subtitle {
+    font-size: 32px;
+    color: #333;
+}
+
+.products-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product {
+    width: 300px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.product:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.product-infos {
+    padding: 20px;
+}
+
+.product-img img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #eee;
+}
+
+.product-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.product-rating {
+    font-size: 16px;
+    color: #777;
+}
+
+
+/* Önceki CSS kodlarını buraya yapıştırın */
+
+.ptitle {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.psubtitle {
+    font-size: 32px;
+    color: #333;
+}
+
+.product-container {
+    display: flex;
+    justify-content: center;
+}
+
+.pproduct {
+    width: 300px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.pproduct .product-infos {
+    padding: 20px;
+}
+
+.pproduct .product-img img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #eee;
+}
+
+.pproduct .product-subinfo {
+    margin-top: 10px;
+}
+
+.pproduct .product-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.pproduct .product-description {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.pproduct .product-rating {
+    font-size: 16px;
+    color: #777;
+}
+
+
+.sort-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+#sort-select {
+    padding: 8px;
+    font-size: 16px;
+}
+/* Filtreleme alanı stilleri */
+.filters-container {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.filter {
+    margin-bottom: 10px;
+}
+
+.filter label {
+    margin-right: 10px;
+}
